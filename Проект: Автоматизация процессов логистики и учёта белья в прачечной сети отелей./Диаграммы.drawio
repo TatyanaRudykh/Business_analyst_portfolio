@@ -1,0 +1,347 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0" pages="3">
+  <diagram name="UseCase" id="y6qUHCz8kt-4BURYJd-g">
+    <mxGraphModel dx="733" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WnhBM-NheZDVf7xgegyj-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Заведующий&amp;nbsp;&lt;div&gt;бельевой (ЗБ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Менеджер&amp;nbsp;&lt;div&gt;по логистике&amp;nbsp;&lt;/div&gt;&lt;div&gt;(МЛ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Процесс планирования доставки в системе &quot;Л-логистика&quot;" vertex="1">
+          <mxGeometry height="350" width="370" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-21" edge="1" parent="WnhBM-NheZDVf7xgegyj-5" source="WnhBM-NheZDVf7xgegyj-29" style="endArrow=classicThin;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endFill=1;" target="WnhBM-NheZDVf7xgegyj-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="56.700000000000045" y="88.75" as="sourcePoint" />
+            <mxPoint x="74.77" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-24" connectable="0" parent="WnhBM-NheZDVf7xgegyj-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0558" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-25" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Сохранять план доставки для отеля на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-27" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Сформировать план доставки для отеля на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95" x="5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-29" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt;CRUD&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt;План доставки на неделю&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;с учетом загрузки отеля&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-26" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Просматривать план доставки для отеля на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-30" edge="1" parent="WnhBM-NheZDVf7xgegyj-5" source="WnhBM-NheZDVf7xgegyj-29" style="endArrow=classicThin;html=1;rounded=0;entryX=0.183;entryY=0.096;entryDx=0;entryDy=0;exitX=0.754;exitY=0.887;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endFill=1;exitPerimeter=0;entryPerimeter=0;" target="WnhBM-NheZDVf7xgegyj-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="110" as="sourcePoint" />
+            <mxPoint x="110" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-31" connectable="0" parent="WnhBM-NheZDVf7xgegyj-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0558" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-32" edge="1" parent="WnhBM-NheZDVf7xgegyj-5" source="WnhBM-NheZDVf7xgegyj-29" style="endArrow=classicThin;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endFill=1;" target="WnhBM-NheZDVf7xgegyj-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="168" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-33" connectable="0" parent="WnhBM-NheZDVf7xgegyj-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0558" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-36" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Редактировать план доставки для отеля на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="91" x="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-37" edge="1" parent="WnhBM-NheZDVf7xgegyj-5" source="WnhBM-NheZDVf7xgegyj-29" style="endArrow=classicThin;html=1;rounded=0;dashed=1;startArrow=none;startFill=0;endFill=1;" target="WnhBM-NheZDVf7xgegyj-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="143" as="sourcePoint" />
+            <mxPoint x="297" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-38" connectable="0" parent="WnhBM-NheZDVf7xgegyj-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0558" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-40" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Просматривать&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;общий план доставки на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95" x="134" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-43" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Отправлять к ЗБ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;на редактирование&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;план доставки отеля на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-45" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Утверждать&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;общий план доставки на неделю&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95" x="195" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-49" parent="WnhBM-NheZDVf7xgegyj-5" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Просматривать&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;план доставки отеля&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;на следующий день&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="15" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-19" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-2" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="WnhBM-NheZDVf7xgegyj-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="160" as="sourcePoint" />
+            <mxPoint x="196.87" y="105.70000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-41" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-3" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="382" as="sourcePoint" />
+            <mxPoint x="361" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-44" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="WnhBM-NheZDVf7xgegyj-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="411" as="sourcePoint" />
+            <mxPoint x="261" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-46" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-3" style="endArrow=none;html=1;rounded=0;entryX=0.011;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" target="WnhBM-NheZDVf7xgegyj-45" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="391" as="sourcePoint" />
+            <mxPoint x="220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ПО &quot;О!Отель&quot;" vertex="1">
+          <mxGeometry height="60" width="30" x="600" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-39" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-6" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="WnhBM-NheZDVf7xgegyj-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="95" />
+            </Array>
+            <mxPoint x="600" y="313" as="sourcePoint" />
+            <mxPoint x="666" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-50" edge="1" parent="1" source="WnhBM-NheZDVf7xgegyj-3" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="210" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnhBM-NheZDVf7xgegyj-51" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WnhBM-NheZDVf7xgegyj-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="417" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OWJZMZwEDZ-s2FejHF9S" name="Диаграмма классов">
+    <mxGraphModel dx="1191" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Общий план доставки сети" vertex="1">
+          <mxGeometry height="184" width="210" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-2" parent="O5VW-USkPlPDt2mrcTwy-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Период: &lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку:&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;&amp;nbsp;list&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;на забор:&lt;/span&gt;&amp;nbsp;list&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-3" parent="O5VW-USkPlPDt2mrcTwy-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="210" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-9" parent="O5VW-USkPlPDt2mrcTwy-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;+ Изменить период()&lt;/span&gt;&lt;div&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку()&lt;/div&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&lt;/span&gt;&amp;nbsp;на забор()&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-4" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="План доставки отеля на неделю" vertex="1">
+          <mxGeometry height="230" width="210" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-5" parent="O5VW-USkPlPDt2mrcTwy-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Н&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;аименование отеля: array&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ Период:&amp;nbsp;&lt;font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку:&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;&amp;nbsp;list&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;на забор:&lt;/span&gt;&amp;nbsp;list&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-6" parent="O5VW-USkPlPDt2mrcTwy-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-10" parent="O5VW-USkPlPDt2mrcTwy-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Изменить н&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;аименование отеля()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ Изменить период()&lt;div&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку()&lt;/div&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&lt;/span&gt;&amp;nbsp;на забор()&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="План доставки отеля на конкретный день" vertex="1">
+          <mxGeometry height="270" width="210" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-8" parent="O5VW-USkPlPDt2mrcTwy-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font&gt;+ Н&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;аименование отеля: array&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;+ Период:&amp;nbsp;&lt;font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot;&gt;+ Дата: date&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку:&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;&amp;nbsp;list&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;на забор:&lt;/span&gt;&amp;nbsp;list&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O5VW-USkPlPDt2mrcTwy-9" parent="O5VW-USkPlPDt2mrcTwy-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-11" parent="O5VW-USkPlPDt2mrcTwy-7" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Изменить н&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;аименование отеля()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ Изменить период()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ Изменить дату()&lt;br&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку()&lt;/div&gt;&lt;div&gt;+ Изменить с&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;писок позиций и кол-во единиц&lt;/span&gt;&amp;nbsp;на забор()&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#000000;" value="Номенклатура изделия" vertex="1">
+          <mxGeometry height="150" width="220" x="370" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-2" parent="dLIVkpNFVorYVPzbVe1b-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ID: integer&lt;div&gt;+ Наименование: array&lt;/div&gt;&lt;div&gt;+ Количество в прачечной:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;integer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Количество в&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;отеле:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;integer&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="220" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-3" parent="dLIVkpNFVorYVPzbVe1b-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-8" parent="dLIVkpNFVorYVPzbVe1b-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Добав&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ить наименование()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;+ Изменить&amp;nbsp;количество в прачечной()&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Изменить&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;к&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;оличество в&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;отеле()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-4" edge="1" parent="1" source="O5VW-USkPlPDt2mrcTwy-8" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.989;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" target="dLIVkpNFVorYVPzbVe1b-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="510" y="170" as="sourcePoint" />
+            <mxPoint x="580" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="218" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="dLIVkpNFVorYVPzbVe1b-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="*" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="V2npvAFddrdT4MSdCFDv-1" edge="1" parent="1" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="134" y="310" as="sourcePoint" />
+            <mxPoint x="134" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2npvAFddrdT4MSdCFDv-4" edge="1" parent="1" source="O5VW-USkPlPDt2mrcTwy-7" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="dLIVkpNFVorYVPzbVe1b-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="134.5" y="618" as="sourcePoint" />
+            <mxPoint x="134.5" y="562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5HH6Wb9u1yTZ2NHMK3m-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="l5HH6Wb9u1yTZ2NHMK3m-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...7" vertex="1">
+          <mxGeometry height="30" width="60" x="89" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="l5HH6Wb9u1yTZ2NHMK3m-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="l5HH6Wb9u1yTZ2NHMK3m-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="609" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_e2-suwrXE1zV-tfHWaT" name="Диаграмма объектов">
+    <mxGraphModel dx="1191" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ub57M27DBIjbSlI25oCL-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Полотенце бол&lt;/span&gt;:&amp;nbsp;&lt;div&gt;Номенклатура изделия&lt;/div&gt;" vertex="1">
+          <mxGeometry height="118" width="210" x="400" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ub57M27DBIjbSlI25oCL-2" parent="ub57M27DBIjbSlI25oCL-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ID: 125&lt;div&gt;+ Наименование:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Полотенце бол&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Количество в прачечной: 1790&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Количество в&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;отеле: 255&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="210" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ub57M27DBIjbSlI25oCL-3" parent="ub57M27DBIjbSlI25oCL-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4SpVRO-gddrBwFPA2i3X-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#0000CC;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Комплект белья 2сп&lt;/span&gt;: Номенклатура изделия" vertex="1">
+          <mxGeometry height="138" width="210" x="400" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4SpVRO-gddrBwFPA2i3X-6" parent="4SpVRO-gddrBwFPA2i3X-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ID: 123&lt;div&gt;+ Наименование:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Комплект белья 2сп&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Количество в прачечной: 1700&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Количество в&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;отеле: 255&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="210" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="4SpVRO-gddrBwFPA2i3X-7" parent="4SpVRO-gddrBwFPA2i3X-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ПД 20.2026: Общий план доставки сети" vertex="1">
+          <mxGeometry height="214" width="210" x="101" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-6" parent="nBw7fGNI-SsObBsZs6yL-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Период:&amp;nbsp;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;18.05.2026&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&amp;nbsp;–&amp;nbsp;24.05.2026&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade; color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;на доставку:&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve-breaks; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;Комплект белья 2сп - 1500&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Полотенце бол - 2300&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Полотенце мал -2400&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;на забор:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Комплект белья 2сп - 1900&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Полотенце бол - 2530&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Полотенце мал - 2490&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="210" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-7" parent="nBw7fGNI-SsObBsZs6yL-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ПД Белый пион 20.2026: План доставки отеля на неделю" vertex="1">
+          <mxGeometry height="248" width="210" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-10" parent="nBw7fGNI-SsObBsZs6yL-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Н&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;аименование отеля: Белый пион&lt;/span&gt;&lt;div&gt;+ Период:&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;18.05.2026&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&amp;nbsp;–&amp;nbsp;24.05.2026&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade; color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку:&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; Комплект белья 2сп - 850&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp;Полотенце бол - 1430&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;Полотенце мал -1440&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;на забор:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Комплект белья 2сп - 790&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Полотенце бол - 1453&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Полотенце мал - 1449&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-11" parent="nBw7fGNI-SsObBsZs6yL-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ПД Белый пион 18.05.26: План доставки отеля на конкретный день" vertex="1">
+          <mxGeometry height="268" width="210" x="101" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-14" parent="nBw7fGNI-SsObBsZs6yL-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Н&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;аименование отеля: Белый пион&lt;/span&gt;&lt;div&gt;+ Период:&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;18.05.2026&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&amp;nbsp;–&amp;nbsp;24.05.2026&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade; color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;+ Дата: 18.05.2026&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;/span&gt;на доставку:&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgba(0, 0, 0, 0.85), rgba(237, 237, 237, 0.85)); white-space-collapse: preserve-breaks;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Комплект белья 2сп - 150&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;Полотенце бол - 230&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Полотенце мал -240&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;+ Список позиций и кол-во единиц&amp;nbsp;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;на забор:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Комплект белья 2сп - 190&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; Полотенце бол - 253&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); white-space-collapse: preserve-breaks;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; Полотенце мал - 249&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-15" parent="nBw7fGNI-SsObBsZs6yL-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-93" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#00CC00;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Полотенце мал&lt;/span&gt;:&amp;nbsp;&lt;div&gt;Номенклатура изделия&lt;/div&gt;" vertex="1">
+          <mxGeometry height="118" width="210" x="400" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-94" parent="nBw7fGNI-SsObBsZs6yL-93" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ID: 126&lt;div&gt;+ Наименование:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Полотенце мал&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Количество в прачечной: 1890&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Количество в&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;отеле&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: 255&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="210" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-95" parent="nBw7fGNI-SsObBsZs6yL-93" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-Cz6V3XC6E3ViyCsu4iY-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Данная диаграмма описывает ситуацию, когда менеджер по логистике просматривает план доставки отеля Белый пион на 18.05.2026 г.&amp;nbsp;&amp;nbsp;&lt;div&gt;Чтобы просмотреть данный план, он сначала открывает общий план доставки на 20-ю неделю 2026 г. (18.05.2026 - 24.05.2026).&amp;nbsp;&lt;/div&gt;&lt;div&gt;Потом выбирает отель &quot;Белый пион&quot;.&lt;/div&gt;&lt;div&gt;В открывшемся плане доставки отеля&amp;nbsp;&quot;Белый пион&quot; на 20-ю неделю 2026 г. (18.05.2026 - 24.05.2026) менеджер по логистике выбирает план доставки на 18.05.2026 г.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="320" x="345" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4V511yYBfouq4BB0xmQg-1" edge="1" parent="1" source="nBw7fGNI-SsObBsZs6yL-9" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.462;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.462;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="nBw7fGNI-SsObBsZs6yL-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4V511yYBfouq4BB0xmQg-2" edge="1" parent="1" source="nBw7fGNI-SsObBsZs6yL-13" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.492;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="nBw7fGNI-SsObBsZs6yL-11" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="203" y="500" as="sourcePoint" />
+            <mxPoint x="200" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBw7fGNI-SsObBsZs6yL-132" edge="1" parent="1" source="nBw7fGNI-SsObBsZs6yL-14" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="4SpVRO-gddrBwFPA2i3X-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="586" as="sourcePoint" />
+            <mxPoint x="1020" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKSQqzlgjxXfzofhVb9T-2" edge="1" parent="1" source="nBw7fGNI-SsObBsZs6yL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="ub57M27DBIjbSlI25oCL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IB-axwBYKZ0OKrSQzmuE-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...7" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="IB-axwBYKZ0OKrSQzmuE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="IB-axwBYKZ0OKrSQzmuE-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="IB-axwBYKZ0OKrSQzmuE-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="AosT1CIBe0wUXpou5pUb-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="285" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="SehwIYTGBteNQO9CYT7r-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="*" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="SehwIYTGBteNQO9CYT7r-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="*" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="SehwIYTGBteNQO9CYT7r-4" edge="1" parent="1" source="nBw7fGNI-SsObBsZs6yL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.01;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" target="nBw7fGNI-SsObBsZs6yL-94" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="615" as="sourcePoint" />
+            <mxPoint x="399" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SehwIYTGBteNQO9CYT7r-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="*" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="764" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
