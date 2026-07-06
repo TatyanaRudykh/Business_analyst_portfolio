@@ -15,6 +15,9 @@
 * Разработать прототип решения.
 
 ## Артефакты проекта: 
-* Отчёт об обследовании бизнес-процессов, содержащий AS IS процессы в нотации BPMN 2.0, CJM.
-* Требования к решению: TO BE процессы в нотации BPMN 2.0, в UML (UseCases, Class Diagram, Object Diagram), описание BR, USM, Acceptance Criterias, UseCases.
-* Прототип решения (Miro). 
+* Отчёт об обследовании бизнес-процессов, содержащий AS IS процессы в нотации BPMN 2.0.
+* CJM - https://miro.com/app/board/uXjVH-Hy0-Y=/?share_link_id=249642513645.
+* Требования к решению: TO BE процессы в нотации BPMN 2.0, в UML (UseCase-Diagram, Class Diagram, Object Diagram), описание BR, USM, Acceptance Criterias, UseCases.
+* UseCase-Diagram - https://miro.com/app/board/uXjVHZdFiXA=/?share_link_id=797242402996
+* USM - https://miro.com/app/board/uXjVHb6d7MA=/?share_link_id=353911538917
+* Прототип решения - https://miro.com/app/board/uXjVHZU6R9k=/?share_link_id=305461085860
